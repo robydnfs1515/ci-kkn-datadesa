@@ -4,7 +4,7 @@
   <!-- Sidebar - Brand -->
   <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
     <div class="sidebar-brand-icon rotate-n-15">
-      <i class="fas fa-laugh-wink"></i>
+      <i class="fa fa-h-square" aria-hidden="true"></i>
     </div>
     <div class="sidebar-brand-text mx-3">Data Desa <sup>Tambon Tunong</sup></div>
   </a>
@@ -14,7 +14,7 @@
 
   <!-- Nav Item - Dashboard -->
   <li class="nav-item">
-    <a class="nav-link" href="index.html">
+    <a class="nav-link" href="<?=base_url();?>">
       <i class="fab fa-dashcube"></i>
       <span>Dashboard</span></a>
   </li>
@@ -29,7 +29,7 @@
 
   <!-- Nav Item - Pages Collapse Menu -->
   <li class="nav-item">
-    <a class="nav-link collapsed" href="#">
+    <a class="nav-link collapsed" href="<?=base_url('upah');?>">
       <i class="fas fa-tablets"></i>
       <span>BLT Subsidi Upah</span>
     </a>
